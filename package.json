@@ -1,0 +1,21 @@
+{
+  "name": "codeonthego",
+  "version": "1.0.0",
+  "description": "CodeOnTheGo is a real-time collaborative code editor web application that allows multiple users to edit the same code file simultaneously. Users can create online rooms, share the room URL with others, and code together in the browser.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@codemirror/commands": "^6.3.3",
+    "@codemirror/state": "^6.4.1",
+    "@codemirror/view": "^6.25.1",
+    "codemirror": "^5.65.16",
+    "express": "^4.18.3",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^8.2.1"
+  }
+}
